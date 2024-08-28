@@ -1,0 +1,19 @@
+name: Paragraphs Asymmetric Translation Widgets
+type: module
+description: 'Extends the paragraphs field widgets to support asymmetric translations.'
+core_version_requirement: ^9.3 || ^10
+package: Paragraphs
+dependencies:
+  - paragraphs:paragraphs
+  - drupal:content_translation
+
+test_dependencies:
+  - entity_browser:entity_browser
+  - entity_usage:entity_usage
+  - paragraphs:paragraphs
+  - search_api:search_api
+
+# Information added by Drupal.org packaging script on 2023-12-08
+version: '8.x-1.3'
+project: 'paragraphs_asymmetric_translation_widgets'
+datestamp: 1702031260
